@@ -28,7 +28,9 @@ public class Token {
 		BREAK     = 29, CLASS     = 30, CONST     = 31, ELSE      = 32, IF        = 33, NEW       = 34, 
 		READ      = 35, RETURN    = 36, VOID      = 37, WHILE     = 38, WRITE     = 39,
 	//end of file
-		EOF       = 40, WRITELN = 41, COMILLADOBLE = 42;
+		EOF       = 40, WRITELN = 41, COMILLADOBLE = 42,
+	//Type Identifier
+		INT	  =43,  CHAR    = 44, BOOLEAN	   = 45, TYPE=46;
 
 
 	/* List of printable names for all kinds of tokens (e.g. for error messages).
@@ -44,7 +46,8 @@ public class Token {
 		"(", ")", "[", "]", "{", "}", 
 		"break", "class", "const", "else", "if", "new",
 		"read", "return", "void", "while", "write", 
-		"end of file" , "comilla doble", "mmm..."
+		"end of file" , "comilla doble", "mmm...",
+		"int", "char", "boolean"
 	};
 
 	
